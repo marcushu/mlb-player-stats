@@ -1,0 +1,17 @@
+button {
+    color: rgb(179, 36, 36);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color: white;
+}
+
+button:hover {
+    color: #000;
+}
+
+#number {
+    color: rgb(85, 85, 85);
+    font-style: italic;
+}

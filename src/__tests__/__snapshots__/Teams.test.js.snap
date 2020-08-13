@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Teams component renders 1`] = `
+<DocumentFragment>
+  <span>
+    <img
+      alt="test"
+      src="orioles.gif"
+      style="width: 60px;"
+    />
+  </span>
+  <span>
+    <img
+      alt="test"
+      src="redSox.gif"
+      style="width: 60px;"
+    />
+  </span>
+  <span>
+    <img
+      alt="test"
+      src="sox.gif"
+      style="width: 60px;"
+    />
+  </span>
+  <span>
+    <img
+      alt="test"
+      src="indians.gif"
+      style="width: 60px;"
+    />
+  </span>
+  <span>
+    <img
+      alt="test"
+      src="tigers.gif"
+      style="width: 60px;"
+    />
+  </span>
+  <span>
+    <img
+      alt="test"
+      src="astros.gif"
+      style="width: 60px;"
+    />
+  </span>
+  <span>
+    <img
+      alt="test"
+      src="royals.gif"
+      style="width: 60px;"
+    />
+  </span>
+  <span>
+    <img
+      alt="test"
+      src="angels.gif"
+      style="width: 60px;"
+    />
+  </span>
+  <span>
+    <img
+      alt="test"
+      src="twins.gif"
+      style="width: 60px;"
+    />
+  </span>
+  <span>
+    <img
+      alt="test"
+      src="yankees.gif"
+      style="width: 60px;"
+    />
+  </span>
+  <span>
+    <img
+      alt="test"
+      src="as.gif"
+      style="width: 60px;"
+    />
+  </span>
+  <span>
+    <img
+      alt="test"
+      src="mariners.gif"
+      style="width: 60px;"
+    />
+  </span>
+  <span>
+    <img
+      alt="test"
+      src="rays.gif"
+      style="width: 60px;"
+    />
+  </span>
+  <span>
+    <img
+      alt="test"
+      src="rangers.gif"
+      style="width: 60px;"
+    />
+  </span>
+  <span>
+    <img
+      alt="test"
+      src="blueJays.gif"
+      style="width: 60px;"
+    />
+  </span>
+</DocumentFragment>
+`;
