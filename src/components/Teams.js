@@ -6,7 +6,7 @@ function Teams(props) {
   return (
     <>
         {props.teamsArray.map(team =>
-          <span key={team.team_id}>
+          <span key={team.team_id} style={{cursor: "pointer"}}>
             <img
               src={require(`../images/${team.gif}`)}
               style={{ width: "60px" }}
