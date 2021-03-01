@@ -16,8 +16,12 @@ const Roster = ({ roster }) => {
   const [seasonHittingStats, setseasonHittingStats] = useState();
   const [pitchingStats, setpitchingStats] = useState();
   const [seasonPitchingState, setseasonPitchingState] = useState();
+  const [loading, setloading] = useState(false);
 
   const highlightPlayer = async playerId => {
+    setselectedPlayerId(playerId);
+    setloading(true);
+
     try {
       const hittingRes = await axios.get(`https://lookup-service-prod.mlb.com/json/named.sport_career_hitting.bam?league_list_id=%27mlb%27&game_type=%27R%27&player_id=%27${playerId}%27`);
       const pitchingRes = await axios.get(`https://lookup-service-prod.mlb.com/json/named.sport_career_pitching.bam?league_list_id=%27mlb%27&game_type=%27R%27&player_id=%27${playerId}%27`);
@@ -28,7 +32,9 @@ const Roster = ({ roster }) => {
       setseasonHittingStats(seasonHittingRes.data.sport_hitting_tm.queryResults);
       setpitchingStats(pitchingRes.data.sport_career_pitching.queryResults);
       setseasonPitchingState(seasonPitchingRes.data.sport_pitching_tm.queryResults);
-      setselectedPlayerId(playerId);
+      //setselectedPlayerId(playerId);
+
+      setloading(false);
     } catch (error) {
       console.error(error);
     }
@@ -73,16 +79,25 @@ const Roster = ({ roster }) => {
                     </td>
                   </tr>
                   {player.player_id === selectedPlayerId ?
-                    <tr>
-                      <td colSpan={5}>
-                        <PlayerDetails
-                          hitting={hittingStats}
-                          pitching={pitchingStats}
-                          seasonHitting={seasonHittingStats}
-                          seasonPitching={seasonPitchingState}
-                        />
-                      </td>
-                    </tr> : <></>
+                    loading === false ?
+                      <tr>
+                        <td colSpan={5}>
+                          <PlayerDetails
+                            hitting={hittingStats}
+                            pitching={pitchingStats}
+                            seasonHitting={seasonHittingStats}
+                            seasonPitching={seasonPitchingState}
+                          />
+                        </td>
+                      </tr> :
+                      <tr>
+                        <td className="text-center">
+                          <span style={{ color: "red", fontSize: "20px", padding: "10px" }}>
+                            LOADING STATS...
+                        </span>
+                        </td>
+                      </tr>
+                    : <></>
                   }
                 </React.Fragment>
               )}
