@@ -8,7 +8,7 @@ function Teams(props) {
         {props.teamsArray.map(team =>
           <span key={team.team_id} style={{cursor: "pointer"}}>
             <img
-              src={require(`../images/${team.gif}`)}
+              src={require(`../images/${team.gif}`).default}
               style={{ width: "60px" }}
               alt={team.gif}
               onClick={() => props.callBack(team.team)}
