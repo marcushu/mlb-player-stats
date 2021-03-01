@@ -10,7 +10,7 @@ function Teams(props) {
             <img
               src={require(`../images/${team.gif}`)}
               style={{ width: "60px" }}
-              alt="test"
+              alt={team.gif}
               onClick={() => props.callBack(team.team)}
             />
           </span>
