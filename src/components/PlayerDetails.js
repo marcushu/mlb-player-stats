@@ -12,7 +12,7 @@ function PlayerDetails(props) {
 
   return (
     <div className="p-2 py-3">
-      {stats.hitting.totalSize > 0 ?
+      {stats.hitting.totalSize > 0 &&
         <>
           <span className="statHeader">Career Hitting</span><br />
           <Table size="sm">
@@ -27,9 +27,9 @@ function PlayerDetails(props) {
               </tr>
             </tbody>
           </Table>
-        </> : <></>}
+        </>}
 
-      {stats.seasonHitting.totalSize > 0 ?
+      {stats.seasonHitting.totalSize > 0 &&
         <>
           <span className="statHeader">Season Hitting</span><br />
           <Table size="sm">
@@ -44,9 +44,9 @@ function PlayerDetails(props) {
               </tr>
             </tbody>
           </Table>
-        </> : <></>}
+        </>}
 
-      {stats.pitching.totalSize > 0 ?
+      {stats.pitching.totalSize > 0 &&
         <>
           <span className="statHeader">Career Pitching</span><br />
           <Table size="sm">
@@ -61,9 +61,9 @@ function PlayerDetails(props) {
               </tr>
             </tbody>
           </Table>
-        </> : <></>}
+        </>}
 
-      {stats.seasonPitching.totalSize > 0 ?
+      {stats.seasonPitching.totalSize > 0 &&
         <>
          <span className="statHeader">Season Pitching</span><br />
           <Table size="sm">
@@ -78,7 +78,7 @@ function PlayerDetails(props) {
               </tr>
             </tbody>
           </Table>
-        </> : <></>}
+        </>}
     </div>
   );
 
