@@ -20,7 +20,7 @@ describe("Teams component", () => {
         const { getAllByAltText } = render(
             <Teams callBack={mockFunc} teamsArray={americanLeague} />
         );
-        const nodes = getAllByAltText("test");
+        const nodes = getAllByAltText("team gif");
 
         fireEvent.click(nodes[0]);
 

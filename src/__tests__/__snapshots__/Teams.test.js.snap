@@ -2,108 +2,123 @@
 
 exports[`Teams component renders 1`] = `
 <DocumentFragment>
-  <span>
+  <span
+    style="cursor: pointer;"
+  >
     <img
-      alt="test"
-      src="orioles.gif"
+      alt="team gif"
       style="width: 60px;"
     />
   </span>
-  <span>
+  <span
+    style="cursor: pointer;"
+  >
     <img
-      alt="test"
-      src="redSox.gif"
+      alt="team gif"
       style="width: 60px;"
     />
   </span>
-  <span>
+  <span
+    style="cursor: pointer;"
+  >
     <img
-      alt="test"
-      src="sox.gif"
+      alt="team gif"
       style="width: 60px;"
     />
   </span>
-  <span>
+  <span
+    style="cursor: pointer;"
+  >
     <img
-      alt="test"
-      src="indians.gif"
+      alt="team gif"
       style="width: 60px;"
     />
   </span>
-  <span>
+  <span
+    style="cursor: pointer;"
+  >
     <img
-      alt="test"
-      src="tigers.gif"
+      alt="team gif"
       style="width: 60px;"
     />
   </span>
-  <span>
+  <span
+    style="cursor: pointer;"
+  >
     <img
-      alt="test"
-      src="astros.gif"
+      alt="team gif"
       style="width: 60px;"
     />
   </span>
-  <span>
+  <span
+    style="cursor: pointer;"
+  >
     <img
-      alt="test"
-      src="royals.gif"
+      alt="team gif"
       style="width: 60px;"
     />
   </span>
-  <span>
+  <span
+    style="cursor: pointer;"
+  >
     <img
-      alt="test"
-      src="angels.gif"
+      alt="team gif"
       style="width: 60px;"
     />
   </span>
-  <span>
+  <span
+    style="cursor: pointer;"
+  >
     <img
-      alt="test"
-      src="twins.gif"
+      alt="team gif"
       style="width: 60px;"
     />
   </span>
-  <span>
+  <span
+    style="cursor: pointer;"
+  >
     <img
-      alt="test"
-      src="yankees.gif"
+      alt="team gif"
       style="width: 60px;"
     />
   </span>
-  <span>
+  <span
+    style="cursor: pointer;"
+  >
     <img
-      alt="test"
-      src="as.gif"
+      alt="team gif"
       style="width: 60px;"
     />
   </span>
-  <span>
+  <span
+    style="cursor: pointer;"
+  >
     <img
-      alt="test"
-      src="mariners.gif"
+      alt="team gif"
       style="width: 60px;"
     />
   </span>
-  <span>
+  <span
+    style="cursor: pointer;"
+  >
     <img
-      alt="test"
-      src="rays.gif"
+      alt="team gif"
       style="width: 60px;"
     />
   </span>
-  <span>
+  <span
+    style="cursor: pointer;"
+  >
     <img
-      alt="test"
-      src="rangers.gif"
+      alt="team gif"
       style="width: 60px;"
     />
   </span>
-  <span>
+  <span
+    style="cursor: pointer;"
+  >
     <img
-      alt="test"
-      src="blueJays.gif"
+      alt="team gif"
       style="width: 60px;"
     />
   </span>
