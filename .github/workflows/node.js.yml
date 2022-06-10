@@ -19,6 +19,8 @@ jobs:
       - name: Cypress tests
         uses: cypress-io/github-action@v2
         with:
+          config-file: cypress.config.js
+          # necessary? vvvvvvv
           build: npm run build
           start: npm start
 
