@@ -1,5 +1,7 @@
 # mlb-player-stats
 
+[![Node.js CI](https://github.com/marcushu/mlb-player-stats/actions/workflows/node.js.yml/badge.svg)](https://github.com/marcushu/mlb-player-stats/actions/workflows/node.js.yml)
+
 ## Season and career M.L.B. pitching and hitting statistics.
 
 Visit https://mlb-playerstats.web.app
