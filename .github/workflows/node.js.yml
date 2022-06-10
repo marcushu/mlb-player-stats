@@ -24,6 +24,6 @@ jobs:
           build: npm run build
           start: npm start
           wait-on: 'http://localhost:3000'
-          wait-on-timeout: 60 # seconds = 3 mins
+          wait-on-timeout: 160 # seconds
           config: 'baseUrl=http://localhost:3000'
 
