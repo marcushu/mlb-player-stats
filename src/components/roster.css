@@ -15,3 +15,7 @@ button:hover {
     color: rgb(85, 85, 85);
     font-style: italic;
 }
+
+#fullstats {
+    border-left: solid red 3px;
+}

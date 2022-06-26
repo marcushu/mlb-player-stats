@@ -80,7 +80,7 @@ const Roster = ({ roster }) => {
                   </tr>
                   {player.player_id === selectedPlayerId ?
                     loading === false ?
-                      <tr>
+                      <tr id='fullstats'>
                         <td colSpan={5}>
                           <PlayerDetails
                             hitting={hittingStats}
