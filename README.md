@@ -4,7 +4,11 @@
 
 ## Season and career M.L.B. pitching and hitting statistics.
 
-Visit https://mlb-playerstats.web.app
+
+
+:point_right: An updated version is available [here](https://github.com/marcushu/mlb-playerstats)
+
+
 
 #### A REACT app that displays the followin Major League Baseball player statistics.
 
